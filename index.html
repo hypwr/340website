@@ -99,6 +99,15 @@
         const top10Words = allWords.slice(0,10); //0 is the start index, 10 is the number of elements (i was using 9 for the longest time thinking it was the end index)
         return top10Words;
     }
+    
+    //this function is after the dictionary, but the html inspector in google cuts it off, please view the github repository at: "https://github.com/hypwr/340website" to view the full source code file.
+    //     function onCheck(){
+    //         const top10output = spellChecker(document.getElementById('word').value,dictionary);
+    //         let list = "";
+    //         for (let i = 0; i < 10; i++) {
+    //             list=list+top10output[i].word/*+top10output[i].distance*/+'<br> ';
+    //         }
+    //         document.getElementById("suggestions").innerHTML = list;
 
     //below is the entire dictionary in array form, I made a python script to convert it to a new file with just an array and copied the output over
     //this is like this so the dictionary file doesn't have to be opened and read each time we want to access this data
